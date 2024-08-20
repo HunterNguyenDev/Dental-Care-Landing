@@ -485,7 +485,7 @@ main {
   margin-top: 70px;
 }
 
-.member-item:hover .member-item__thumb{
+.member-item:hover .member-item__thumb {
   transform: scale(1.1);
 }
 
@@ -534,7 +534,7 @@ main {
   border-radius: 50%;
   border: 1px solid #575f66;
   outline: none;
-  color: #575F66;
+  color: #575f66;
   background: #fff;
   transition: 0.25s;
 }
@@ -548,4 +548,49 @@ main {
 
 .member__control-next-icon {
   rotate: 180deg;
+}
+
+/* Install */
+.install {
+  margin-top: 180px;
+}
+.install__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+
+.install__img {
+  display: block;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  margin-top: -95px;
+}
+
+.install__content {
+  max-width: 586px;
+  
+}
+
+.install__heading{
+  letter-spacing: -1px;
+  color: #FFF;
+}
+
+.install__desc {
+  color: #FFF;
+}
+
+.install__heading {
+  max-width: 489px;
+}
+
+.install__row {
+  display: flex;
+  column-gap: 28px;
+  margin-top: 38px;
 }
